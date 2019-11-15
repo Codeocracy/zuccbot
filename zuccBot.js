@@ -1,6 +1,7 @@
 var Discord = require("discord.io");
 var config = require(".config.json");
 var fs = require('fs');
+const zuccData = require('./zuccData.json')
 
 var bot = new Discord.Client({
     token: config.token,
